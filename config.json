@@ -1,0 +1,8 @@
+{
+    "key": "RIXM-TXFD-CE13-BVP3",
+    "capApi": "api key here",
+    "link": "enter site link",
+    "webhook": "",
+    "captchaMode": "capmonster/2captcha",
+    "catchallDomain": "@joe.com"
+}
