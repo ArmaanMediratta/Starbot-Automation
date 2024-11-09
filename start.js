@@ -19,8 +19,7 @@ const catchall = require("./src/catchall.js");
 const starbucks = require("./src/starbucks.js");
 const mcd = require("./src/mac.js");
 require("events").EventEmitter.defaultMaxListeners = 7;
-const API_KEY =
-  "pk_3FtkSt9Bq6TmlOVpp7dzsiX7vMGyDFJu"; /* Your publishable API key here */
+const API_KEY = ""; /* Your publishable API key here */
 
 let rawdata = fs.readFileSync("config.json");
 let parseData = JSON.parse(rawdata);
